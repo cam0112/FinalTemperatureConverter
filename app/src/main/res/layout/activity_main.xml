@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout tools:context=".MainActivity" android:orientation="vertical"
+android:gravity="center_horizontal|center_vertical" android:layout_height="match_parent"
+android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal"
+    android:gravity="center_horizontal|center_vertical" android:layout_height="wrap_content"
+    android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="Temperature in F"/>
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:inputType="numberDecimal" android:id="@+id/txtF"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+    android:gravity="center_horizontal|center_vertical" android:layout_height="wrap_content"
+    android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="Convert F to C" android:id="@+id/btnConvertF2C"/>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="Convert C to F" android:id="@+id/btnConvertC2F"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+    android:gravity="center_horizontal|center_vertical" android:layout_height="wrap_content"
+    android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="Temperature in C"/>
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:inputType="numberDecimal" android:id="@+id/txtC"/>
+    </LinearLayout>
+</LinearLayout>
